@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(to right, #f8fafc, #e2e8f0);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  button {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-1px);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  #formPengeluaran input,
+  #formPengeluaran button {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+  
+  #listPengeluaran li {
+    background-color: #f1f5f9;
+    border-left: 4px solid #3b82f6;
+    animation: fadeIn 0.4s ease-in;
+  }
+  
+  .output-item {
+    animation: fadeIn 0.4s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
