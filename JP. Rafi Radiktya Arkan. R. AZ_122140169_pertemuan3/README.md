@@ -29,16 +29,6 @@ Untuk tampilan antarmuka aplikasi
 - `localStorage` untuk penyimpanan data
 - `async/await` (simulasi penyimpanan edit)
 
-## 📁 Struktur Folder
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   ├── app.js      ← class & penyimpanan
-│   └── main.js     ← interaksi DOM
-└── README.md
-
-
 ## 🚀 Cara Menjalankan
 1. Buka file `index.html` di browser (bisa klik kanan → Open with Live Server).
 2. Isi form dan klik tombol **Tambah**.
