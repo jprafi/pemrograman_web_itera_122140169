@@ -30,6 +30,9 @@ Aplikasi ini dibuat untuk memenuhi tugas praktikum mata kuliah **Pemrograman Web
 ### 📊 Halaman Statistik
 ![Statistik](Statistik.png)
 
+### ✅ Testing
+![Testing](Testing.png)
+
 ## 📦 Cara Menjalankan Proyek
 
 1. Clone atau download repo ini
