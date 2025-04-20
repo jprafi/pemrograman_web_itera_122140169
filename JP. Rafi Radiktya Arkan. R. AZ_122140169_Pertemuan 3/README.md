@@ -25,10 +25,10 @@ Aplikasi ini dibuat untuk memenuhi tugas praktikum mata kuliah **Pemrograman Web
 ## 📸 Screenshot Aplikasi
 
 ### 🏠 Halaman Home
-![Home](home.png)
+![Home](Home.png)
 
 ### 📊 Halaman Statistik
-![Statistik](stats.png)
+![Statistik](Statistik.png)
 
 ## 📦 Cara Menjalankan Proyek
 
