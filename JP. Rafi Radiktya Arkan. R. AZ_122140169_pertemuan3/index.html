@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catatan Pengeluaran Harian</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen p-6">
+  <div class="max-w-2xl mx-auto bg-white shadow-md rounded-lg p-6">
+    <h1 class="text-2xl font-bold text-center mb-6">Catatan Pengeluaran Harian</h1>
+
+    <!-- Form Tambah Pengeluaran -->
+    <form id="formPengeluaran" class="space-y-4">
+      <input type="text" id="nama" placeholder="Nama Pengeluaran" required class="w-full border p-2 rounded" />
+      <input type="number" id="jumlah" placeholder="Jumlah (Rp)" required class="w-full border p-2 rounded" />
+      <input type="date" id="tanggal" required class="w-full border p-2 rounded" />
+      <input type="text" id="kategori" placeholder="Kategori (makan, transport, dll)" class="w-full border p-2 rounded" />
+      <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">Tambah</button>
+    </form>
+
+    <!-- Daftar Pengeluaran -->
+    <h2 class="text-xl font-semibold mt-8 mb-4">Daftar Pengeluaran</h2>
+    <ul id="listPengeluaran" class="space-y-3"></ul>
+    <div id="totalPengeluaran" class="mt-6 font-bold text-lg text-right text-blue-600">
+        Total: Rp 0
+    </div>      
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
